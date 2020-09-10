@@ -1,0 +1,19 @@
+cd Projects/Java/Code/HelloWorld/ --> Change Diretory
+git init --> Initiate git repository
+git config --global user.email "surkin21@gmail.com" --> Let git know your email
+git config --global user.name "Suresh Kini" --> Let git know your name
+git remote add origin git@github.com:surkin21/HelloWorld.git --> link local repository to remote repository
+git remote -v --> Display remote repository
+git status --> Display changed files
+git add . --> Stage modified file for commit
+git status --> Check if file have been staged
+git commit -m "Initial Commit" --> Commit staged files with message
+git push --set-upstream origin master --> Initial push to remote repository, here after use "git push"
+cd .. -- go one step back
+rmdir HelloWorld --> Delete local repository
+git clone git@github.com:surkin21/HelloWorld.git --> Clone repository from remote repository in github
+ls -ltr --> List files in directory
+cd HelloWorld/ --> Change Diretory
+ls -lrt --> List files in directory
+javac HelloWorld.java --> Compile <filename>.java to generate <filename>.class
+java HelloWorld --> execute main method of generatd class file.
